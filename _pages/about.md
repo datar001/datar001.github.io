@@ -6,7 +6,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -26,9 +25,8 @@ If you are interested in my work or have any questions, please feel free to cont
 
 
 # 🔥 News
-
 - *2025.06*: &nbsp;🎉🎉 "TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models" is accepted by ICCV2025. See you in Hawaii🌺!
-  <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+<!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 # 📝 Publications 
 
@@ -38,7 +36,6 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/pub/iccv25_trce.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 
 [TRCE: Towards Reliable Malicious Concept Erasure in Text-to-Image Diffusion Models](https://arxiv.org/abs/2503.07389)
 
@@ -70,7 +67,6 @@ If you are interested in my work or have any questions, please feel free to cont
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2025</div><img src='images/pub/pami25_t2td.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-
 [T2TD: Text-3D generation model based on prior knowledge guidance](https://ieeexplore.ieee.org/abstract/document/10684147)
 
 Weizhi Nie, **Ruidong Chen** (First Student Author), Weijie Wang, Bruno Lepri, Nicu Sebe
@@ -84,7 +80,6 @@ Weizhi Nie, **Ruidong Chen** (First Student Author), Weijie Wang, Bruno Lepri, N
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-CSVT 2025</div><img src='images/pub/tcsvt25_compcraft.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 
 [CompCraft: Foreground-driven Image Synthesis with Customized Layouts](https://ieeexplore.ieee.org/abstract/document/11071912)
 
@@ -113,7 +108,6 @@ Honglin Guo, Weizhi Nie, **Ruidong Chen** (Corresponding Author), Lanjun Wang, G
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/pub/icassp25_aesgpt.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-
 [Aesthetic Perception Prompting for Interpretable Image Aesthetics Assessment with MLLMs](https://ieeexplore.ieee.org/abstract/document/10889477)
 
 Lanjun Wang, Zheyu Qiao, **Ruidong Chen**, Jingqiu Li, Wenjie Wang, Xiaoqiong Wang, Wei Rao, Shuai Chen, An-An Liu
@@ -127,20 +121,16 @@ Lanjun Wang, Zheyu Qiao, **Ruidong Chen**, Jingqiu Li, Wenjie Wang, Xiaoqiong Wa
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 <!-- # 🎖 Honors and Awards
-
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 <!-- # 📖 Educations
-
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 <!-- # 💬 Invited Talks
-
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 <!-- # 💻 Internships
-
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
