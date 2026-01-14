@@ -47,7 +47,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Tairen Zhang, Lanjun Wang, Ruidong Chen, Wenhui Li, Anan Liu
 
-*The 40th Annual AAAI Conference on Artificial Intelligence, 2026*
+*AAAI, 2026*
 </div>
 </div>
 
@@ -65,7 +65,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Lanjun Wang, Yiwen Ma, Wenhui Li, An-An Liu
 
-*The 40th Annual AAAI Conference on Artificial Intelligence, 2026*
+*AAAI, 2026*
 </div>
 </div>
 
