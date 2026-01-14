@@ -43,6 +43,8 @@ If you are interested in my work or have any questions, please feel free to cont
 <div class='paper-box-text'>
 
 
+
+
 [T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](https://arxiv.org/abs/2510.22300)
 
 **Chenyu Zhang**, Tairen Zhang, Lanjun Wang, Ruidong Chen, Wenhui Li, Anan Liu
