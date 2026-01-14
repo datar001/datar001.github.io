@@ -57,7 +57,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-R2A -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/R2A.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/R2A.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -75,7 +75,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-MJA -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/pub/MJA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/pub/MJA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -103,7 +103,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Mingwang Hu, Wenhui Li, Lanjun Wang
 
-*Information Fusion (JCR-1)*
+*Information Fusion (JCR-1), 2025*
 </div>
 </div>
 
@@ -156,9 +156,9 @@ Ruidong Chen, Honglin Guo, Lanjun Wang, **Chenyu Zhang**, Weizhi Nie, An-An Liu
 
 [Toward Chinese Food Understanding: A Cross-Modal Ingredient-Level Benchmark](https://ieeexplore.ieee.org/abstract/document/10496846)
 
-Lanjun Wang, **Chenyu Zhang (fIR)**, An-An Liu, Bo Yang, Mingwang Hu, Xinran Qiao
+Lanjun Wang, **Chenyu Zhang (First Student Author)**, An-An Liu, Bo Yang, Mingwang Hu, Xinran Qiao
 
-*IEEE Transactions on Artificial Intelligence*
+*IEEE Transactions on MultiMedia, 2024*
 </div>
 </div>
 
