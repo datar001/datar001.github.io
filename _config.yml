@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Ruidong Chen's Academic Homepage"
+title                    : "Chenyu Zhang's Academic Homepage"
 description              : ""
-repository               : "littlefatshiba/littlefatshiba.github.io"
+repository               : "datar001/datar001.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Ruidong Chen (陈睿东)"
+  name             : "Chenyu Zhang (张晨宇)"
   avatar           : "images/avatar_gpt.png"
   bio              : "Tianjin University"
   location         : "Tianjin, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=LLav2o8AAAAJ&hl=en"
-  email            : "chenruidong@tju.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=kQy6BIQAAAAJ&hl=en"
+  email            : "zcy@tju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
