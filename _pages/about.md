@@ -40,7 +40,7 @@ If you are interested in my work or have any questions, please feel free to cont
 <!-- 2026-T2I-RiskyPrompt -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/T2I-RiskyPrompt.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text'>
+<div class='paper-box-text' markdown="1">
 
 
 
