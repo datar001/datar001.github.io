@@ -35,8 +35,6 @@ If you are interested in my work or have any questions, please feel free to cont
 
 
 
-!-- * Corresponding Author, #Equal Contribution -->
-
 <!-- 2026-T2I-RiskyPrompt -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/T2I-RiskyPrompt.png' alt="sym" width="100%"></div></div>
