@@ -15,16 +15,64 @@ Previously, I received my M.S. degree from the School of Electrical and Informat
 
 In the past, I mainly focused on investigating safety vulnerabilities in image generation models through practical red-teaming methods. I am now studying defense strategies that adjust the model’s internal behavior to better align generated outputs with our expectations. In addition, I am interested in controllable mechanisms for image and video generation.
 
-## Selected Publications
+<h2 style="margin-top: 40px;">Selected Publications</h2>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AAAI 2026</div>
+      <img src='images/pub/T2I-RiskyPrompt.png' alt="VINE" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    <strong>T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model</strong><br>
+    <strong>Chenyu Zhang</strong>, Tairen Zhang, Lanjun Wang, Ruidong Chen, Wenhui Li, Anan Liu<br>
+    <em>The 40th Annual AAAI Conference on Artificial Intelligence (AAAI 2026)</em><br>
+    [<a href='https://arxiv.org/abs/2510.22300'>Paper</a>] [<a href='https://github.com/datar001/T2I-RiskyPrompt'>Project</a>]
+  </div>
+</div>
+
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">CVPR 2024</div>
+      <img src='images/pub/MACE.png' alt="MACE" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    <strong>MACE: Mass Concept Erasure in Diffusion Models</strong><br>
+    <strong>Shilin Lu</strong>, Zihan Zhou, Leyang Li, Yanzhu Liu, and Adams Wai-Kin Kong<br>
+    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</em><br>
+    [<a href='https://arxiv.org/abs/2402.05408'>Paper</a>] [<a href='https://github.com/Shilin-LU/MACE'>Code</a>] [<a href='https://shilin-lu.github.io/MACE_page/'>Project</a>]
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ICCV 2023</div>
+      <img src='images/pub/TF-ICON.png' alt="TF-ICON" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+    <strong>TF-ICON: Diffusion-Based Training-Free Cross-Domain Image Composition</strong><br>
+    <strong>Shilin Lu</strong>, Yanzhu Liu, and Adams Wai-Kin Kong<br>
+    <em>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</em><br>
+    [<a href='https://arxiv.org/abs/2307.12493'>Paper</a>] [<a href='https://github.com/Shilin-LU/TF-ICON'>Code</a>] [<a href='https://shilin-lu.github.io/TF-ICON_page/'>Project</a>]
+  </div>
+</div>
+
+
+
+
 
 <!-- * Corresponding Author, #Equal Contribution -->
 
 <!-- 2026-T2I-RiskyPrompt -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/T2I-RiskyPrompt.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-
+<div class='paper-box-text'>
 
 [T2I-RiskyPrompt: A Benchmark for Safety Evaluation, Attack, and Defense on Text-to-Image Model](https://arxiv.org/abs/2510.22300)
 
@@ -131,12 +179,29 @@ Ruidong Chen, Honglin Guo, Lanjun Wang, **Chenyu Zhang**, Weizhi Nie, An-An Liu
 
 [Toward Chinese Food Understanding: A Cross-Modal Ingredient-Level Benchmark](https://ieeexplore.ieee.org/abstract/document/10496846)
 
-Lanjun Wang, **Chenyu Zhang (First student author)**, An-An Liu, Bo Yang, Mingwang Hu, Xinran Qiao
+Lanjun Wang, **Chenyu Zhang (fIR)**, An-An Liu, Bo Yang, Mingwang Hu, Xinran Qiao
 
-*IEEE Transactions on MultiMedia*
+*IEEE Transactions on Artificial Intelligence*
+</div>
+</div>
+
+<!-- 2025-ICASSP -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/pub/icassp25_aesgpt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+[Aesthetic Perception Prompting for Interpretable Image Aesthetics Assessment with MLLMs](https://ieeexplore.ieee.org/abstract/document/10889477)
+
+Lanjun Wang, Zheyu Qiao, **Ruidong Chen**, Jingqiu Li, Wenjie Wang, Xiaoqiong Wang, Wei Rao, Shuai Chen, An-An Liu
+
+*IEEE International Conference on Acoustics, Speech and Signal Processing*
 </div>
 </div>
 
 
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+
+
+
