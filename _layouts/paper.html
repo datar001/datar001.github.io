@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="paper-project-body">
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <main class="paper-project{% if page.paper_theme %} paper-project--{{ page.paper_theme }}{% endif %}" role="main">
+      {{ content }}
+    </main>
+
+    {% include scripts.html %}
+  </body>
+</html>

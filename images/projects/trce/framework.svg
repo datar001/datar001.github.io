@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" role="img" aria-labelledby="title desc">
+  <title id="title">TRCE 两阶段概念擦除框架</title>
+  <desc id="desc">第一阶段通过 EoT 嵌入和闭式交叉注意力更新擦除隐式文本语义；第二阶段通过对比学习将早期去噪轨迹推向安全方向，并用正则项保留正常生成知识。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfefe"/>
+      <stop offset="1" stop-color="#eef7f4"/>
+    </linearGradient>
+    <linearGradient id="stage1" x1="0" x2="1">
+      <stop offset="0" stop-color="#e7f4f0"/>
+      <stop offset="1" stop-color="#d8eee7"/>
+    </linearGradient>
+    <linearGradient id="stage2" x1="0" x2="1">
+      <stop offset="0" stop-color="#f1ebfa"/>
+      <stop offset="1" stop-color="#e5dcf5"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#466274"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#18384a" flood-opacity=".1"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="540" rx="24" fill="url(#bg)"/>
+  <text x="58" y="55" fill="#18384a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="25" font-weight="700">TRCE · Reliable Concept Erasure</text>
+  <text x="1220" y="55" text-anchor="end" fill="#708292" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15">TEXT SEMANTICS → DENOISING TRAJECTORY</text>
+
+  <rect x="46" y="86" width="573" height="400" rx="22" fill="url(#stage1)" stroke="#8cbcaf" stroke-width="2"/>
+  <rect x="661" y="86" width="573" height="400" rx="22" fill="url(#stage2)" stroke="#a795ca" stroke-width="2"/>
+
+  <circle cx="86" cy="125" r="22" fill="#2d7768"/>
+  <text x="86" y="132" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800">1</text>
+  <text x="119" y="120" fill="#173f36" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="23" font-weight="700">Textual Semantic Erasure</text>
+  <text x="119" y="146" fill="#52786f" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15">先消除提示词中显式与隐式的目标语义</text>
+
+  <rect x="78" y="196" width="142" height="124" rx="16" fill="#fff" stroke="#bad8d0" filter="url(#shadow)"/>
+  <text x="149" y="230" text-anchor="middle" fill="#234b43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">Prompt Sets</text>
+  <text x="149" y="258" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">目标概念</text>
+  <text x="149" y="282" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">安全对应概念</text>
+  <text x="149" y="306" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">保留概念</text>
+
+  <line x1="222" y1="258" x2="270" y2="258" stroke="#466274" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="282" y="196" width="142" height="124" rx="16" fill="#fff" stroke="#bad8d0" filter="url(#shadow)"/>
+  <text x="353" y="232" text-anchor="middle" fill="#234b43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">[EoT]</text>
+  <text x="353" y="257" text-anchor="middle" fill="#2d7768" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16">e₀ᴱᵒᵀ</text>
+  <text x="353" y="282" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">聚合整句语义</text>
+  <text x="353" y="305" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">保留上下文结构</text>
+
+  <line x1="426" y1="258" x2="474" y2="258" stroke="#466274" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="486" y="196" width="102" height="124" rx="16" fill="#fff" stroke="#bad8d0" filter="url(#shadow)"/>
+  <text x="537" y="230" text-anchor="middle" fill="#234b43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700">Closed-form</text>
+  <text x="537" y="251" text-anchor="middle" fill="#234b43" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700">Refinement</text>
+  <text x="537" y="282" text-anchor="middle" fill="#2d7768" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="20">Wₖ · Wᵥ</text>
+  <text x="537" y="307" text-anchor="middle" fill="#688078" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="13">交叉注意力</text>
+
+  <rect x="89" y="360" width="484" height="82" rx="15" fill="#fff" fill-opacity=".76"/>
+  <text x="116" y="390" fill="#2d7768" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700">关键选择</text>
+  <text x="116" y="417" fill="#506c65" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15">只映射 [EoT]，避免大范围重写关键词导致知识遗忘。</text>
+
+  <circle cx="701" cy="125" r="22" fill="#6c57a0"/>
+  <text x="701" y="132" text-anchor="middle" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800">2</text>
+  <text x="734" y="120" fill="#45366b" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="23" font-weight="700">Denoising Trajectory Steering</text>
+  <text x="734" y="146" fill="#74688f" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15">再从生成早期把采样轨迹推向安全方向</text>
+
+  <rect x="694" y="196" width="128" height="124" rx="16" fill="#fff" stroke="#cfc3e5" filter="url(#shadow)"/>
+  <text x="758" y="231" text-anchor="middle" fill="#4c3c70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">Early</text>
+  <text x="758" y="253" text-anchor="middle" fill="#4c3c70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">Trajectory</text>
+  <path d="M717 286 C735 267 751 303 768 282 S802 271 803 291" fill="none" stroke="#6c57a0" stroke-width="4" stroke-linecap="round"/>
+
+  <line x1="824" y1="258" x2="864" y2="258" stroke="#466274" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="876" y="180" width="151" height="156" rx="16" fill="#fff" stroke="#cfc3e5" filter="url(#shadow)"/>
+  <text x="951" y="212" text-anchor="middle" fill="#4c3c70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">Contrastive</text>
+  <text x="951" y="234" text-anchor="middle" fill="#4c3c70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="17" font-weight="700">Guidance</text>
+  <circle cx="919" cy="275" r="14" fill="#dcefe7" stroke="#62a18d"/>
+  <text x="941" y="280" fill="#3e7d6b" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">趋近安全</text>
+  <circle cx="919" cy="308" r="14" fill="#f8e3e2" stroke="#cc7c78"/>
+  <text x="941" y="313" fill="#a65b58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14">远离风险</text>
+
+  <line x1="1029" y1="258" x2="1069" y2="258" stroke="#466274" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <rect x="1081" y="196" width="122" height="124" rx="16" fill="#fff" stroke="#cfc3e5" filter="url(#shadow)"/>
+  <path d="M1142 220 l27 10 v22 c0 23-14 39-27 47-13-8-27-24-27-47v-22z" fill="#e7f4f0" stroke="#4b8d7b" stroke-width="2"/>
+  <path d="M1129 257 l9 9 18-21" fill="none" stroke="#367765" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1142" y="307" text-anchor="middle" fill="#4c3c70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="14" font-weight="700">Safe Model</text>
+
+  <rect x="704" y="360" width="486" height="82" rx="15" fill="#fff" fill-opacity=".76"/>
+  <text x="731" y="390" fill="#6c57a0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15" font-weight="700">双重约束</text>
+  <text x="731" y="417" fill="#6c627d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="15">Lₑᵣₐₛₑ 引导安全轨迹；Lₚᵣₑₛₑᵣᵥₑ 保持正常生成知识。</text>
+</svg>

@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "Chenyu Zhang's Academic Homepage"
 description              : ""
+url                      : "https://datar001.github.io"
 repository               : "datar001/datar001.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -84,6 +85,7 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - bin
   - config
   - gulpfile.js
   - log

@@ -2,13 +2,14 @@
 {% if site.url %}
   {% assign seo_url = site.url %}
 {% endif %}
-{% assign seo_url = seo_url | default: site.github.url %}
+{% assign seo_url = seo_url | default: site.url %}
 
 {% if site.url %}
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% assign seo_page_title = page.title | strip %}
+<title>{% if seo_page_title != "" %}{{ seo_page_title | strip_html }} · {% endif %}{{ site.title }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,9 +30,9 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="{{ page.og_locale | default: 'en_US' }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_page_title | default: site.title | strip_html }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
