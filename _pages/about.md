@@ -38,7 +38,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-AHV-DS -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM CCS 2026</div><img src='images/pub/AHV-DS-figure1.png' alt="Figure 1: AHV-D&amp;S compared with text and latent representation correction" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM CCS 2026 · CCF-A</div><img src='images/pub/AHV-DS-figure1.png' alt="Figure 1: AHV-D&amp;S compared with text and latent representation correction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -48,7 +48,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Lanjun Wang, Yueyang Cheng, Ruidong Chen, Wenhui Li, An-An Liu
 
-*ACM CCS, 2026*
+*ACM CCS, 2026, CCF-A*
 </div>
 </div>
 
@@ -56,7 +56,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-T2I-RiskyPrompt -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/T2I-RiskyPrompt.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 · CCF-A</div><img src='images/pub/T2I-RiskyPrompt.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -66,7 +66,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Tairen Zhang, Lanjun Wang, Ruidong Chen, Wenhui Li, Anan Liu
 
-*AAAI, 2026*
+*AAAI, 2026, CCF-A*
 </div>
 </div>
 
@@ -74,7 +74,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-R2A -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/R2A.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 · CCF-A</div><img src='images/pub/R2A.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -84,7 +84,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Lanjun Wang, Yiwen Ma, Wenhui Li, Guoqing Jin, An-An Liu
 
-*AAAI, 2026*
+*AAAI, 2026, CCF-A*
 </div>
 </div>
 
@@ -92,7 +92,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2026-MJA -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint 2026</div><img src='images/pub/MJA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV · Under Review · CCF-A</div><img src='images/pub/MJA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -102,7 +102,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Lanjun Wang, Yiwen Ma, Wenhui Li, Yi Tu, An-An Liu
 
-*Preprint, 2026*
+*IJCV, under review, CCF-A*
 </div>
 </div>
 
@@ -110,7 +110,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2025-AD-on-T2I -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion 2025</div><img src='images/pub/AD-on-T2I.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Information Fusion · IF 15.9</div><img src='images/pub/AD-on-T2I.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -120,7 +120,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 **Chenyu Zhang**, Mingwang Hu, Wenhui Li, Lanjun Wang
 
-*Information Fusion (JCR-1), 2025*
+*Information Fusion (JCR-1, IF=15.9), 2025*
 </div>
 </div>
 
@@ -128,7 +128,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 <!-- 2025-TRCE -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/pub/TRCE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025 · CCF-A</div><img src='images/pub/TRCE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -138,7 +138,7 @@ If you are interested in my work or have any questions, please feel free to cont
 
 Ruidong Chen, Honglin Guo, Lanjun Wang, **Chenyu Zhang**, Weizhi Nie, An-An Liu
 
-*ICCV 2025*
+*ICCV, 2025, CCF-A*
 </div>
 </div>
 
@@ -165,7 +165,7 @@ Ruidong Chen, Honglin Guo, Lanjun Wang, **Chenyu Zhang**, Weizhi Nie, An-An Liu
 
 <!-- 2024-Food -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2025</div><img src='images/pub/Food.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMM · CCF-A · 2025</div><img src='images/pub/Food.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -175,7 +175,7 @@ Ruidong Chen, Honglin Guo, Lanjun Wang, **Chenyu Zhang**, Weizhi Nie, An-An Liu
 
 Lanjun Wang, **Chenyu Zhang (First Student Author)**, An-An Liu, Bo Yang, Mingwang Hu, Xinran Qiao, Lei Wang, Jianlin He, Qiang Liu
 
-*IEEE Transactions on Multimedia, 2025*
+*IEEE Transactions on Multimedia, CCF-A, 2025*
 </div>
 </div>
 
